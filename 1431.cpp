@@ -6,7 +6,7 @@ using namespace std;
 
 struct cmp {
 	bool operator()(string first, string second) {
-		// ±æÀÌ ÀÛÀº¼ø
+		// ê¸¸ì´ ì‘ì€ 
 		int n = 0, m = 0;
 
 		if (first.length() != second.length()) {
