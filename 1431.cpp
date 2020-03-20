@@ -10,7 +10,7 @@ struct cmp {
 		int n = 0, m = 0;
 
 		if (first.length() != second.length()) {
-			return first.length() < second.length();
+	 		return first.length() < second.length();
 		}
 
 		for (string::size_type i = 0; i < first.length(); i++) {
