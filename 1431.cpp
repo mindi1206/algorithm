@@ -23,7 +23,7 @@ struct cmp {
 				m += c - '0';
 			}
 		}
-
+ 
 		if (n != m) {
 			return n < m;
 		}
